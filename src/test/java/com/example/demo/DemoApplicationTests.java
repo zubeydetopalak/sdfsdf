@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.fail;
 
 class DemoApplicationTests {
 
-	// deneme eklendijhk
+	// de
 	
 	@Test
 	public void checkExampleComAccess() {
