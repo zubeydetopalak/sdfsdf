@@ -24,7 +24,7 @@ class DemoApplicationTests {
 
 			// Eğer kod 200 değilse test başarısız olur
 			assertEquals(200, responseCode, "URL erişilebilir değil! Beklenen: 200, Gelen: " + responseCode);
-
+			System.out.println("erişilebilir.");
 			System.out.println("Başarılı: " + targetUrl + " erişilebilir.");
 
 		} catch (Exception e) {
